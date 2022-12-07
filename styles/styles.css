@@ -3,3 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+input {
+    display: block;
+}
+
+body {
+    padding: 2em;
+    font-family: 'Alexandria', sans-serif;
+}
+
+li {
+    font-style: italic;
+}
