@@ -29,34 +29,50 @@ h1 {
     justify-content: space-between;
 }
 
-/* Sobre mí */
+/* Inicio */
 
-.sobre-mi {
+.inicio {
     background: #f1d1ca;
     min-height: 450px;
     text-align: center;
 }
 
-.sobre-mi-principal {
+.inicio-principal {
     padding: 3rem;
     justify-content: space-evenly;
 }
 
-.sobre-mi-principal h2 {
+.inicio-principal h2 {
     font-size: 1.5rem;
     color: #a19d9c;
 }
 
-.sobre-mi-perfil {
+.inicio-perfil {
     width: 200px;
     height: 200px;
     border-radius: 40%;
     margin: 20px;
 }
 
+/* Sobre mí */
+
+.sobre-mi {
+
+}
+
+.seccion-oscura {
+    
+}
+
 /* Resposive */
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .inicio-inferior-img {
+        max-width: 600px;
     }
 }
